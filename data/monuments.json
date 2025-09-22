@@ -1,0 +1,98 @@
+[
+  {
+    "id": "jonha-falls-fort",
+    "name": "Jonha Fort",
+    "image": "/images/monuments/jonha_fort.jpg",
+    "description": "Historic fort near Jonha waterfall in Ranchi district.",
+    "longDescription": "Jonha Fort, located near the famous Jonha Falls, was built centuries ago and offers panoramic views of the surrounding landscape. It is a popular spot for history enthusiasts and trekkers.",
+    "history": "Constructed during medieval times as a defensive fortification.",
+    "importance": "Historic and architectural significance, trekking destination.",
+    "bestTime": "October to March",
+    "thingsToCarry": "Camera, trekking shoes, water",
+    "speciality": "Combination of fort history and natural beauty."
+  },
+  {
+    "id": "kanke-fort",
+    "name": "Kanke Fort",
+    "image": "/images/monuments/kanke_fort.jpg",
+    "description": "Old fort built during British era near Ranchi.",
+    "longDescription": "Kanke Fort was originally constructed during the British colonial period. Today, it is a heritage site surrounded by greenery and is popular for short excursions.",
+    "history": "British-era fortification and administrative center.",
+    "importance": "Colonial heritage and historical education.",
+    "bestTime": "October to March",
+    "thingsToCarry": "Camera, comfortable shoes, water",
+    "speciality": "British-era architecture amidst serene environment."
+  },
+  {
+    "id": "palamu-fort",
+    "name": "Palamu Forts",
+    "image": "/images/monuments/palamu_forts.jpg",
+    "description": "Twin historic forts in Palamu district.",
+    "longDescription": "The Palamu Forts, comprising two ancient forts, are renowned for their architectural beauty and strategic locations. Surrounded by forest, they are perfect for trekking and photography.",
+    "history": "Built in the 17th century by local rulers.",
+    "importance": "Historical and architectural significance.",
+    "bestTime": "October to February",
+    "thingsToCarry": "Camera, water, trekking gear",
+    "speciality": "Twin forts with panoramic views and historic legacy."
+  },
+  {
+    "id": "hundru-fort",
+    "name": "Hundru Fort",
+    "image": "/images/monuments/hundru_fort.jpg",
+    "description": "Ancient fort near Hundru waterfall.",
+    "longDescription": "Hundru Fort is a small medieval fort located close to Hundru Falls. It attracts visitors interested in history, architecture, and natural scenery.",
+    "history": "Built during the medieval period for local rulers.",
+    "importance": "Heritage site with scenic surroundings.",
+    "bestTime": "October to March",
+    "thingsToCarry": "Camera, trekking shoes, water",
+    "speciality": "Historic fort with nearby waterfall view."
+  },
+  {
+    "id": "rajrappa-fort",
+    "name": "Rajrappa Fort",
+    "image": "/images/monuments/rajrappa_fort.jpg",
+    "description": "Historic fort near Rajrappa area.",
+    "longDescription": "Rajrappa Fort stands near the Rajrappa Temple area, overlooking the confluence of rivers. Though partially in ruins, it provides insight into the region's medieval architecture.",
+    "history": "Constructed centuries ago as a defensive structure.",
+    "importance": "Archaeological and historical importance.",
+    "bestTime": "October to February",
+    "thingsToCarry": "Camera, water, comfortable shoes",
+    "speciality": "Fort ruins with river confluence view."
+  },
+  {
+    "id": "chapra-fort",
+    "name": "Chapra Fort",
+    "image": "/images/monuments/chapra_fort.jpg",
+    "description": "Ancient fort located in Chapra region.",
+    "longDescription": "Chapra Fort is a historic fort built on elevated terrain, offering strategic vantage points. It is an interesting destination for history buffs and trekkers.",
+    "history": "Built during medieval times for military purposes.",
+    "importance": "Historic fort with trekking opportunities.",
+    "bestTime": "October to March",
+    "thingsToCarry": "Camera, trekking shoes, water",
+    "speciality": "Medieval fort with scenic surroundings."
+  },
+  {
+    "id": "jamshedpur-fort",
+    "name": "Jamshedpur Fort",
+    "image": "/images/monuments/jamshedpur_fort.jpg",
+    "description": "Historic fortification in Jamshedpur.",
+    "longDescription": "Jamshedpur Fort was built centuries ago and now serves as a cultural landmark. It showcases traditional architecture and is surrounded by urban development.",
+    "history": "Medieval fort adapted by local rulers.",
+    "importance": "Urban heritage and historical significance.",
+    "bestTime": "October to March",
+    "thingsToCarry": "Camera, comfortable shoes, water",
+    "speciality": "Historic fort in modern city surroundings."
+  },
+  {
+    "id": "deoghar-fort",
+    "name": "Deoghar Fort",
+    "image": "/images/monuments/deoghar_fort.jpg",
+    "description": "Small fort in Deoghar district with historic value.",
+    "longDescription": "Deoghar Fort, though modest in size, holds historical importance. Visitors can explore the site while enjoying the surrounding scenic views.",
+    "history": "Built during medieval times by local rulers.",
+    "importance": "Historic and scenic landmark.",
+    "bestTime": "October to February",
+    "thingsToCarry": "Camera, water, comfortable shoes",
+    "speciality": "Historic fort with scenic surroundings."
+  }
+]

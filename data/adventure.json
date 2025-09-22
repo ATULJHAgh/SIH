@@ -1,0 +1,98 @@
+[
+  {
+    "id": "netarhat-trekking",
+    "name": "Netarhat Trekking",
+    "image": "/images/adventure/netarhat_trek.jpg",
+    "description": "Scenic trekking routes in the 'Queen of Chotanagpur'.",
+    "longDescription": "Netarhat offers breathtaking trekking paths through dense forests, hills, and valleys. Popular for sunrise and sunset viewpoints, it's ideal for hikers and nature enthusiasts.",
+    "history": "Netarhat has been a British-era summer retreat, now a popular trekking destination.",
+    "importance": "Adventure tourism and eco-tourism hotspot.",
+    "bestTime": "October to March",
+    "thingsToCarry": "Trekking shoes, water, camera, snacks",
+    "speciality": "Panoramic views and well-marked trekking trails."
+  },
+  {
+    "id": "parasnath-hill-trek",
+    "name": "Parasnath Hill Trek",
+    "image": "/images/adventure/parasnath_trek.jpg",
+    "description": "Trekking to the highest peak in Jharkhand.",
+    "longDescription": "Parasnath Hill offers trekking opportunities through dense forests and along historic Jain pilgrimage paths. Ideal for adventurous hikers and photographers.",
+    "history": "Ancient Jain pilgrimage site and forested hill region.",
+    "importance": "Adventure and religious tourism combined.",
+    "bestTime": "October to February",
+    "thingsToCarry": "Trekking gear, water, camera, comfortable shoes",
+    "speciality": "Trekking with panoramic hilltop views."
+  },
+  {
+    "id": "hazaribagh-lake-trekking",
+    "name": "Hazaribagh Lake Trek",
+    "image": "/images/adventure/hazaribagh_trek.jpg",
+    "description": "Trekking around lakes and forested areas.",
+    "longDescription": "Hazaribagh area offers trekking routes around serene lakes and dense forests, making it a perfect spot for adventure seekers and nature lovers.",
+    "history": "Declared wildlife sanctuary in 1955.",
+    "importance": "Adventure tourism and eco-tourism.",
+    "bestTime": "October to February",
+    "thingsToCarry": "Trekking shoes, water, camera, insect repellent",
+    "speciality": "Lake-side trekking in untouched forests."
+  },
+  {
+    "id": "dalma-hills-trekking",
+    "name": "Dalma Hills Trek",
+    "image": "/images/adventure/dalma_trek.jpg",
+    "description": "Elephant sighting and trekking in Dalma Hills.",
+    "longDescription": "Dalma Hills offers trekking through scenic paths with chances to spot elephants and other wildlife. Trails are suitable for both beginners and experienced trekkers.",
+    "history": "Historically a natural reserve for local fauna.",
+    "importance": "Wildlife adventure and eco-tourism.",
+    "bestTime": "October to March",
+    "thingsToCarry": "Trekking shoes, camera, water, guidebook",
+    "speciality": "Elephant sightings during trekking."
+  },
+  {
+    "id": "jonha-waterfall-adventure",
+    "name": "Jonha Waterfall Adventure",
+    "image": "/images/adventure/jonha_waterfall.jpg",
+    "description": "Hiking and adventure near Jonha Falls.",
+    "longDescription": "Jonha Falls offers adventure activities like hiking and rock climbing in scenic surroundings. The area is rich in natural beauty and suitable for family and solo adventurers.",
+    "history": "Natural waterfall site in Ranchi district.",
+    "importance": "Adventure and nature tourism.",
+    "bestTime": "October to March",
+    "thingsToCarry": "Hiking shoes, water, camera, snacks",
+    "speciality": "Waterfall adventure with trekking paths."
+  },
+  {
+    "id": "hundru-waterfall-trek",
+    "name": "Hundru Waterfall Trek",
+    "image": "/images/adventure/hundru_waterfall.jpg",
+    "description": "Trekking to Hundru Falls, the highest waterfall in Jharkhand.",
+    "longDescription": "Hundru Falls offers trekking trails through forests and rocky paths, leading to the spectacular waterfall. Ideal for photographers and adventure lovers.",
+    "history": "Hundru Falls is a natural waterfall on the Subarnarekha River.",
+    "importance": "Adventure tourism and scenic beauty.",
+    "bestTime": "October to March",
+    "thingsToCarry": "Trekking shoes, water, camera, snacks",
+    "speciality": "Highest waterfall in Jharkhand with trekking experience."
+  },
+  {
+    "id": "trikut-hills-trek",
+    "name": "Trikut Hills Trek",
+    "image": "/images/adventure/trikut_trek.jpg",
+    "description": "Trek across three scenic peaks with forest trails.",
+    "longDescription": "Trikut Hills features three peaks connected by trekking paths, offering panoramic views and moderate hiking challenges. Also a nearby pilgrimage site.",
+    "history": "Ancient forested hills with cultural significance.",
+    "importance": "Adventure tourism and trekking.",
+    "bestTime": "October to March",
+    "thingsToCarry": "Trekking gear, camera, water, snacks",
+    "speciality": "Three scenic peaks with forested trails."
+  },
+  {
+    "id": "pardih-forest-trek",
+    "name": "Pardih Forest Adventure",
+    "image": "/images/adventure/pardih_trek.jpg",
+    "description": "Trekking and adventure in urban forest near Ranchi.",
+    "longDescription": "Pardih Forest offers small trekking trails and adventure activities in an urban forest setting. Ideal for quick excursions and nature walks.",
+    "history": "Local preserved forest area in Ranchi.",
+    "importance": "Urban adventure and eco-tourism.",
+    "bestTime": "October to March",
+    "thingsToCarry": "Trekking shoes, water, camera, snacks",
+    "speciality": "Urban forest trekking with picnic spots."
+  }
+]

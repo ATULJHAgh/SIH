@@ -1,0 +1,66 @@
+[
+  {
+    "id": "damodar-river",
+    "name": "Damodar River",
+    "image": "/images/rivers/damodar.webp",
+    "description": "Flows from Palamu hills and known as the 'Sorrow of Bengal'.",
+    "culturalOverview": "The Damodar River is historically significant for Bengal and Jharkhand, associated with legends, floods, and coal belt prosperity.",
+    "importance": "Supports agriculture and industrial needs across Jharkhand and West Bengal."
+  },
+  {
+    "id": "subarnarekha-river",
+    "name": "Subarnarekha River",
+    "image": "/images/rivers/subarnarekha.jpeg",
+    "description": "Originates in Chhotanagpur Plateau; named 'Golden Line', passes in Ranchi, Jamshedpur.",
+    "culturalOverview": "It holds mythological links to gold discoveries and has nourished civilizations along its banks.",
+    "importance": "Important for water supply in Ranchi and Jamshedpur."
+  },
+  {
+    "id": "sankh-river",
+    "name": "Sankh River",
+    "image": "/images/rivers/sankh.jpg",
+    "description": "Rises in Chhotanagpur Plateau and merges with Koel; scenic river with local significance.",
+    "culturalOverview": "Known in tribal traditions and songs, the Sankh River reflects the cultural identity of the plateau region.",
+    "importance": "Joins the South Koel River to form the Brahmani, crucial for agriculture and water management."
+  },
+  {
+    "id": "koel-river",
+    "name": "Koel River",
+    "image": "/images/rivers/koel.jpg",
+    "description": "Flows from Ranchi Plateau; major tributary of Brahmani River supporting agriculture.",
+    "culturalOverview": "The Koel River is admired in tribal songs and folklore, enriching the local culture.",
+    "importance": "Vital for irrigation and hydropower projects."
+  },
+  {
+    "id": "mayurakshi-river",
+    "name": "Mayurakshi River",
+    "image": "/images/rivers/mayurakshi.png",
+    "description": "Starts from Trikut hills; its serene course makes it ideal for riverside relaxation.",
+    "culturalOverview": "The river is linked with spiritual and cultural practices, adding to its sanctity.",
+    "importance": "Provides irrigation and supports fishing communities in its basin."
+  },
+  {
+    "id": "ajay-river",
+    "name": "Ajay River",
+    "image": "/images/rivers/ajay.jpg",
+    "description": "Flows through Jharkhand into West Bengal; supports local irrigation and communities.",
+    "culturalOverview": "Mentioned in regional folklore, the Ajay River shaped settlements along its banks.",
+    "importance": "Essential for irrigation, agriculture, and local livelihood support."
+  },
+  {
+    "id": "barakar-river",
+    "name": "Barakar River",
+    "image": "/images/rivers/barakar.jpg",
+    "description": "Originates from Chhotanagpur Plateau; joins Damodar River and aids coal transport.",
+    "culturalOverview": "Closely tied with the Damodar Valley and mining history of Jharkhand.",
+    "importance": "Major tributary of Damodar; vital for coal transportation and industrial water use."
+  },
+  {
+    "id": "brahmani-river",
+    "name": "Brahmani River",
+    "image": "/images/rivers/brahmani.webp",
+    "description": "Formed by South Koel and Sankh rivers; important for agriculture and industry.",
+    "culturalOverview": "Considered sacred in parts of eastern India, sustaining traditions and cultural practices.",
+    "importance": "Supports agriculture, industries, and hydroelectric projects across Jharkhand and Odisha."
+  }
+]
