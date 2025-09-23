@@ -11,13 +11,13 @@ export default function Navbar() {
       }}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Left Side: Logo */}
+        {/* Logo */}
         <div className="flex items-center gap-2 text-white font-bold text-2xl font-serif tracking-wide">
           <LuLeaf className="text-green-300 text-2xl" />
           Jharkhand Tourism
         </div>
 
-        {/* Right Side: Menu Links with Icons */}
+        {/* Menu Links */}
         <ul className="hidden md:flex gap-6 font-medium text-white items-center">
           <li className="group relative">
             <Link
@@ -32,7 +32,7 @@ export default function Navbar() {
 
           <li className="group relative">
             <Link
-              href="#highlights"
+              href="/highlights"
               className="flex items-center gap-1 transition duration-300 hover:text-green-400"
             >
               <AiOutlineStar className="text-lg" />
@@ -43,7 +43,7 @@ export default function Navbar() {
 
           <li className="group relative">
             <Link
-              href="#heritage"
+              href="/heritage"
               className="flex items-center gap-1 transition duration-300 hover:text-green-400"
             >
               <AiOutlineBook className="text-lg" />
@@ -74,6 +74,9 @@ export default function Navbar() {
             </Link>
           </li>
         </ul>
+
+        {/* Mobile Menu Placeholder (optional) */}
+        {/* You can add a hamburger menu here for smaller screens */}
       </div>
     </nav>
   );

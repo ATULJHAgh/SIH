@@ -7,12 +7,16 @@ export default function WaterfallsPage() {
   return (
    <div
   className="min-h-screen bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: "url('/images/waterfalls/bg.jpg')" }}
+ style={{
+  backgroundImage: "url('/images/background/waterfallBG.png.jpg')",
+  opacity: 0.9
+}}
+
 >
   <Navbar />
 
   <div className="max-w-6xl mx-auto px-6 py-24 relative z-10">
-    <h1 className="text-5xl font-extrabold text-center mb-12 text-blue-400 drop-shadow-lg">
+    <h1 className="text-6xl font-extrabold text-center mb-12 text-black drop-shadow-lg">
       Waterfalls of Jharkhand
     </h1>
 

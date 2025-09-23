@@ -13,10 +13,11 @@ export default function CulturalSitesPage() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url('/images/culture/bg.jpg')",
+          backgroundImage: "url('/images/background/culture.png.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           filter: "brightness(50%)",
+          opacity: 0.5
         }}
       ></div>
 

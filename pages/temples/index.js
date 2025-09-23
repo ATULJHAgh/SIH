@@ -7,14 +7,16 @@ export default function TemplesPage() {
   return (
     <div
       className="min-h-screen flex flex-col bg-cover bg-center bg-no-repeat text-gray-100"
-      style={{ backgroundImage: "url('/images/temples/bg.webp')" }}
+      style={{ backgroundImage: "url('/images/background/templeBG.png.jpg')" ,
+        opacity: 0.92
+      }}
     >
       {/* Navbar */}
       <Navbar />
 
       {/* Page Content */}
       <div className="max-w-6xl mx-auto px-6 py-24 flex-grow">
-<h1 className="text-5xl font-extrabold text-black mb-12 text-center drop-shadow-lg">
+<h1 className="text-6xl font-extrabold text-black mb-12 text-center drop-shadow-lg">
 
           Famous Temples in Jharkhand
         </h1>

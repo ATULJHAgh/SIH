@@ -10,7 +10,13 @@
     "importance": "Critical for biodiversity, supports local livelihoods, and promotes eco-tourism.",
     "bestTime": "October to March",
     "thingsToCarry": "Binoculars, camera, trekking shoes, water, sun protection",
-    "speciality": "First park in India to offer elephant-back safaris."
+    "speciality": "First park in India to offer elephant-back safaris.",
+    "lat": 23.8355,
+    "lng": 84.1994,
+    "animals": ["Tiger", "Elephant", "Leopard", "Deer", "Wild Boar", "Peacock"],
+    "openingTime": "6:00 AM",
+    "closingTime": "6:00 PM",
+    "entryFee": { "indian": 50, "foreigner": 300, "camera": 100 }
   },
   {
     "id": "hazaribagh-wildlife-sanctuary",
@@ -23,7 +29,13 @@
     "importance": "Preserves biodiversity and promotes eco-tourism.",
     "bestTime": "October to February",
     "thingsToCarry": "Trekking gear, insect repellent, camera, water, comfortable clothing",
-    "speciality": "Scenic trekking trails through untouched forests and lakes."
+    "speciality": "Scenic trekking trails through untouched forests and lakes.",
+    "lat": 24.0192,
+    "lng": 85.3635,
+    "animals": ["Leopard", "Chital", "Sloth Bear", "Wild Boar", "Peacock"],
+    "openingTime": "6:00 AM",
+    "closingTime": "5:30 PM",
+    "entryFee": { "indian": 30, "foreigner": 200, "camera": 100 }
   },
   {
     "id": "palamu-wildlife-sanctuary",
@@ -36,7 +48,13 @@
     "importance": "Critical tiger reserve and eco-tourism destination.",
     "bestTime": "October to March",
     "thingsToCarry": "Camera, trekking shoes, water, binoculars, light snacks",
-    "speciality": "Combination of wildlife, forest trekking, and historic forts."
+    "speciality": "Combination of wildlife, forest trekking, and historic forts.",
+    "lat": 23.9,
+    "lng": 84.1,
+    "animals": ["Tiger", "Leopard", "Sloth Bear", "Deer", "Wild Dogs"],
+    "openingTime": "6:00 AM",
+    "closingTime": "6:00 PM",
+    "entryFee": { "indian": 40, "foreigner": 250, "camera": 100 }
   },
   {
     "id": "dalma-hills-forest",
@@ -49,7 +67,13 @@
     "importance": "Supports elephant population and tourism.",
     "bestTime": "October to March",
     "thingsToCarry": "Trekking shoes, camera, water, guidebook",
-    "speciality": "Elephant sightings and panoramic views of Jharkhand."
+    "speciality": "Elephant sightings and panoramic views of Jharkhand.",
+    "lat": 22.833,
+    "lng": 86.217,
+    "animals": ["Elephant", "Leopard", "Deer", "Wild Boar", "Porcupine"],
+    "openingTime": "6:00 AM",
+    "closingTime": "6:00 PM",
+    "entryFee": { "indian": 25, "foreigner": 150, "camera": 100 }
   },
   {
     "id": "rajmahal-hills-forest",
@@ -62,7 +86,13 @@
     "importance": "Geologically and ecologically significant, attracts geotourism.",
     "bestTime": "November to February",
     "thingsToCarry": "Hiking boots, water, camera, light snacks",
-    "speciality": "Unique volcanic landscape and tribal culture."
+    "speciality": "Unique volcanic landscape and tribal culture.",
+    "lat": 25.05,
+    "lng": 87.83,
+    "animals": ["Monitor Lizard", "Python", "Leopard", "Deer", "Parakeets"],
+    "openingTime": "7:00 AM",
+    "closingTime": "5:00 PM",
+    "entryFee": { "indian": 20, "foreigner": 100, "camera": 50 }
   },
   {
     "id": "parasnath-hills-forest",
@@ -75,7 +105,13 @@
     "importance": "Religious tourism and biodiversity hotspot.",
     "bestTime": "October to February",
     "thingsToCarry": "Trekking gear, water, camera, comfortable shoes",
-    "speciality": "Jain pilgrimage combined with forest trekking."
+    "speciality": "Jain pilgrimage combined with forest trekking.",
+    "lat": 23.95,
+    "lng": 86.15,
+    "animals": ["Leopard", "Langur", "Partridge", "Fox"],
+    "openingTime": "5:30 AM",
+    "closingTime": "6:00 PM",
+    "entryFee": { "indian": 30, "foreigner": 150, "camera": 80 }
   },
   {
     "id": "netarhat-forest",
@@ -88,7 +124,13 @@
     "importance": "Eco-tourism and bird-watching hotspot.",
     "bestTime": "October to March",
     "thingsToCarry": "Binoculars, camera, trekking shoes, water",
-    "speciality": "Sunrise points and serene landscapes."
+    "speciality": "Sunrise points and serene landscapes.",
+    "lat": 23.47,
+    "lng": 84.27,
+    "animals": ["Peacock", "Deer", "Langur", "Jungle Cat"],
+    "openingTime": "6:00 AM",
+    "closingTime": "6:00 PM",
+    "entryFee": { "indian": 20, "foreigner": 100, "camera": 50 }
   },
   {
     "id": "tagore-hill-forest",
@@ -101,12 +143,18 @@
     "importance": "Urban green space, eco-tourism, and heritage spot.",
     "bestTime": "October to March",
     "thingsToCarry": "Camera, picnic items, water, comfortable shoes",
-    "speciality": "History + nature within city limits."
+    "speciality": "History + nature within city limits.",
+    "lat": 23.39,
+    "lng": 85.33,
+    "animals": ["Squirrel", "Parrot", "Pigeon"],
+    "openingTime": "6:00 AM",
+    "closingTime": "6:00 PM",
+    "entryFee": { "indian": 10, "foreigner": 50, "camera": 20 }
   },
   {
     "id": "trikut-hills-forest",
     "name": "Trikut Hills Forest",
-    "image": "/images/forests/trikut.jpg",
+    "image": "/images/forests/trikut.webp",
     "description": "Forest with three peaks and scenic views.",
     "longDescription": "Trikut Hills Forest in Deoghar features three scenic peaks, rich biodiversity, and trekking routes. Also a pilgrimage site with temples nearby.",
     "history": "Ancient pilgrimage site, forest preserved for eco-tourism.",
@@ -114,7 +162,13 @@
     "importance": "Tourism, trekking, and wildlife conservation.",
     "bestTime": "October to March",
     "thingsToCarry": "Trekking gear, camera, water, snacks",
-    "speciality": "Three scenic peaks with forest trails."
+    "speciality": "Three scenic peaks with forest trails.",
+    "lat": 24.48,
+    "lng": 86.73,
+    "animals": ["Monkey", "Peacock", "Wild Boar", "Jackal"],
+    "openingTime": "5:30 AM",
+    "closingTime": "6:00 PM",
+    "entryFee": { "indian": 25, "foreigner": 120, "camera": 50 }
   },
   {
     "id": "garhjat-hills-forest",
@@ -127,19 +181,31 @@
     "importance": "Biodiversity hotspot and mining region.",
     "bestTime": "November to February",
     "thingsToCarry": "Camera, trekking shoes, water, guidebook",
-    "speciality": "Rich mineral soil with cultural heritage."
+    "speciality": "Rich mineral soil with cultural heritage.",
+    "lat": 22.22,
+    "lng": 85.6,
+    "animals": ["Deer", "Rabbit", "Peacock", "Python"],
+    "openingTime": "7:00 AM",
+    "closingTime": "5:30 PM",
+    "entryFee": { "indian": 20, "foreigner": 100, "camera": 50 }
   },
   {
     "id": "pardih-forest",
     "name": "Pardih Forest",
-    "image": "/images/forests/pardih.jpg",
-    "description": "Lush forest near Ranchi with trekking and picnic spots.",
+    "image": "/images/forests/paridh.jpg",
+    "description": "Lush forest near Ranchi with trekking spots.",
     "longDescription": "Pardih Forest offers small trekking trails, picnic areas, and birdwatching opportunities. It's a green retreat close to Ranchi city.",
     "history": "Preserved as a local forest area with community involvement.",
     "culturalOverview": "Locals visit during festivals and weekends for picnics and rituals.",
     "importance": "Urban eco-tourism and recreational forest.",
     "bestTime": "October to March",
     "thingsToCarry": "Picnic items, water, camera, trekking shoes",
-    "speciality": "Urban forest retreat with scenic picnic spots."
+    "speciality": "Urban forest retreat with scenic picnic spots.",
+    "lat": 23.37,
+    "lng": 85.33,
+    "animals": ["Parrot", "Monkey", "Peacock"],
+    "openingTime": "6:00 AM",
+    "closingTime": "6:00 PM",
+    "entryFee": { "indian": 15, "foreigner": 80, "camera": 30 }
   }
 ]

@@ -55,7 +55,7 @@ export default function GeminiChatBot({ spotId, spotType }) {
       {/* Chat Toggle Button */}
       {!open && (
         <button
-          className="flex flex-col items-center justify-center w-20 h-20 bg-gradient-to-r from-green-500 to-green-700 hover:from-green-600 hover:to-green-800 shadow-xl rounded-full text-white text-2xl transition-transform duration-300 hover:scale-105"
+          className="flex flex-col items-center justify-center w-20 h-20 bg-gradient-to-r from-green-600 to-green-800 hover:from-green-700 hover:to-green-900 shadow-xl rounded-full text-white text-2xl transition-transform duration-300 hover:scale-105"
           onClick={() => setOpen(true)}
         >
           <FaRobot />

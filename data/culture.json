@@ -2,7 +2,7 @@
   {
     "id": "santal-huts-ranchi",
     "name": "Santal Huts, Ranchi",
-    "image": "/images/cultural/santal_huts.jpg",
+    "image": "/images/cultural/santhal.png.jpg",
     "description": "Traditional dwellings of the Santal tribe in Ranchi.",
     "longDescription": "Santal Huts showcase the unique architectural style of the Santal tribe. Visitors can experience tribal lifestyle, crafts, and traditional rituals.",
     "history": "Santals are one of the largest tribal communities in Jharkhand, maintaining their cultural identity for centuries.",
@@ -17,7 +17,7 @@
   {
     "id": "birsa-munda-park-ranchi",
     "name": "Birsa Munda Park",
-    "image": "/images/cultural/birsa_munda_park.jpg",
+    "image": "/images/cultural/birsamunda.png.jpg",
     "description": "Park dedicated to the tribal freedom fighter Birsa Munda.",
     "longDescription": "The park includes statues, cultural exhibits, and gardens. It is a site to understand tribal history and modern cultural events.",
     "history": "Named after Birsa Munda, who led tribal uprisings against British rule.",
@@ -32,7 +32,7 @@
   {
     "id": "rang-tarang-ranchi",
     "name": "Rang Tarang Cultural Center",
-    "image": "/images/cultural/rang_tarang.jpg",
+    "image": "/images/cultural/rangtarang.jpg",
     "description": "Hub for performing arts in Ranchi.",
     "longDescription": "Rang Tarang hosts regular dance, music, and theater performances showcasing Jharkhand’s rich cultural diversity.",
     "history": "Established to preserve and promote local performing arts.",
@@ -47,7 +47,7 @@
   {
     "id": "jharkhand-museum-ranchi",
     "name": "State Museum, Ranchi",
-    "image": "/images/cultural/state_museum.jpg",
+    "image": "/images/cultural/jharkhandmuseum.png.jpg",
     "description": "Museum showcasing tribal art and history of Jharkhand.",
     "longDescription": "The State Museum houses artifacts, sculptures, and displays depicting Jharkhand’s cultural and natural history.",
     "history": "Established to preserve the heritage of the state and tribal culture.",
@@ -62,7 +62,7 @@
   {
     "id": "festival-village-bokaro",
     "name": "Festival Village, Bokaro",
-    "image": "/images/cultural/festival_village.jpg",
+    "image": "/images/cultural/festvill.avif",
     "description": "Venue for traditional festivals and fairs in Bokaro.",
     "longDescription": "Festival Village is a dedicated area where local festivals, tribal fairs, and craft exhibitions are conducted regularly.",
     "history": "Developed to promote Jharkhand’s tribal and folk culture.",
@@ -77,8 +77,8 @@
   {
     "id": "tribal-crafts-center-jamshedpur",
     "name": "Tribal Crafts Center, Jamshedpur",
-    "image": "/images/cultural/tribal_crafts.jpg",
-    "description": "Center displaying handicrafts of Jharkhand tribes.",
+    "image": "/images/cultural/tribalcraftcenter.png.jpg",
+    "description": "Center displaying handicrafts.",
     "longDescription": "Visitors can see and buy traditional tribal crafts including pottery, weaving, jewelry, and paintings.",
     "history": "Established to support tribal artisans and preserve craft traditions.",
     "culturalOverview": "Workshops and live demonstrations of tribal craftsmanship.",
@@ -92,8 +92,8 @@
   {
     "id": "folk-dance-arena-ranchi",
     "name": "Folk Dance Arena, Ranchi",
-    "image": "/images/cultural/folk_dance_arena.jpg",
-    "description": "Open-air arena for traditional folk dance performances.",
+    "image": "/images/cultural/folkdancearena.png.jpg",
+    "description": "Open-air arena for folk dance .",
     "longDescription": "Arena hosts daily or seasonal performances of tribal dances like Chhau, Karma, and Jhumair.",
     "history": "Created to showcase local dance forms to residents and tourists.",
     "culturalOverview": "Performed by local dance troupes, often in traditional attire.",
@@ -107,7 +107,7 @@
   {
     "id": "cultural-village-ranchi",
     "name": "Cultural Village, Ranchi",
-    "image": "/images/cultural/cultural_village.jpg",
+    "image": "/images/cultural/culturalvillage.png.jpg",
     "description": "Living museum of Jharkhand’s tribal lifestyle.",
     "longDescription": "The Cultural Village simulates tribal village life with traditional homes, cooking, music, and rituals for visitors to experience.",
     "history": "Developed for educational and tourism purposes to preserve tribal traditions.",

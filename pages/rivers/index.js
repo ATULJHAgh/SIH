@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer"; // Import Footer
 import rivers from "@/data/rivers.json";
 
 export default function RiversPage() {
@@ -50,6 +51,9 @@ export default function RiversPage() {
           ))}
         </div>
       </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

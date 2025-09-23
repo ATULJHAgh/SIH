@@ -5,6 +5,8 @@ import rivers from "@/data/rivers.json";
 import forests from "@/data/forests.json";
 import monuments from "@/data/monuments.json";
 import temples from "@/data/temples.json";
+import waterfalls from "@/data/waterfalls.json";
+import adventures from "@/data/adventures.json";
 
 const spotDataMap = {
   mountain: mountains,
@@ -13,6 +15,8 @@ const spotDataMap = {
   forest: forests,
   monument: monuments,
   temple: temples,
+  waterfall: waterfalls,
+  adventure: adventures,
 };
 
 export default async function handler(req, res) {

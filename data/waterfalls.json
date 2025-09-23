@@ -2,20 +2,25 @@
   {
     "id": "hundru-falls",
     "name": "Hundru Falls",
-    "image": "/images/waterfalls/hundru.jpg",
-    "description": "One of the highest waterfalls in Jharkhand on the Subarnarekha River.",
+    "image": "/images/waterfalls/hundru.png.jpg",
+    "description": "One of the highest waterfalls in Jharkhand.",
     "longDescription": "Hundru Falls, located near Ranchi, cascades from a height of about 98 meters. Surrounded by lush greenery, it is ideal for nature lovers and photographers.",
     "history": "A natural wonder of Jharkhand, historically visited by locals and tourists for its breathtaking scenery.",
     "culturalOverview": "Locals consider the area sacred and celebrate small local festivals around it.",
     "importance": "Tourism hotspot, eco-tourism, and adventure photography.",
     "bestTime": "September to February",
     "thingsToCarry": "Water, camera, trekking shoes, light snacks",
-    "speciality": "Tall waterfall with panoramic cliff views."
+    "speciality": "Tall waterfall with panoramic cliff views.",
+    "lat": 23.3449,
+    "lng": 85.3215,
+    "region": "Ranchi",
+    "nearestCity": "Ranchi",
+    "difficulty": "Moderate"
   },
   {
     "id": "jonha-falls",
     "name": "Jonha Falls",
-    "image": "/images/waterfalls/jonha.jpg",
+    "image": "/images/waterfalls/Jonha.png.jpg",
     "description": "Beautiful waterfall near Ranchi with a serene environment.",
     "longDescription": "Jonha Falls drops from a height of around 43 meters and is surrounded by dense forests. It is an excellent spot for picnics and nature walks.",
     "history": "Known locally for centuries, it has been a popular attraction for the Ranchi district.",
@@ -23,12 +28,17 @@
     "importance": "Eco-tourism and local recreational spot.",
     "bestTime": "August to February",
     "thingsToCarry": "Water, camera, comfortable footwear, snacks",
-    "speciality": "Scenic waterfall with a calm, peaceful ambiance."
+    "speciality": "Scenic waterfall with a calm, peaceful ambiance.",
+    "lat": 23.3136,
+    "lng": 85.3204,
+    "region": "Ranchi",
+    "nearestCity": "Ranchi",
+    "difficulty": "Easy"
   },
   {
     "id": "hirni-falls",
     "name": "Hirni Falls",
-    "image": "/images/waterfalls/hirni.jpg",
+    "image": "/images/waterfalls/hirni.png.jpg",
     "description": "Waterfall in West Singhbhum district amidst lush forest.",
     "longDescription": "Hirni Falls is known for its stunning 37-meter drop and natural surroundings. The site offers trekking trails and photo opportunities.",
     "history": "A natural site historically frequented by locals for leisure and nature appreciation.",
@@ -36,12 +46,17 @@
     "importance": "Tourism and nature exploration.",
     "bestTime": "June to February",
     "thingsToCarry": "Trekking shoes, water, camera, insect repellent",
-    "speciality": "Forest waterfall with trekking experience."
+    "speciality": "Forest waterfall with trekking experience.",
+    "lat": 22.8021,
+    "lng": 85.5365,
+    "region": "West Singhbhum",
+    "nearestCity": "Chaibasa",
+    "difficulty": "Moderate"
   },
   {
     "id": "panchghagh-falls",
     "name": "Panchghagh Falls",
-    "image": "/images/waterfalls/panchghagh.jpg",
+    "image": "/images/waterfalls/pachghogh.png.jpg",
     "description": "Cluster of five waterfalls near Khunti district.",
     "longDescription": "Panchghagh Falls is famous for its unique five-stream waterfalls cascading over rocky terrain. Surrounded by forests, it is perfect for adventure seekers.",
     "history": "A popular local picnic spot for generations, attracting families and tourists.",
@@ -49,12 +64,17 @@
     "importance": "Tourism, picnic site, and adventure exploration.",
     "bestTime": "July to February",
     "thingsToCarry": "Water, camera, trekking gear, picnic supplies",
-    "speciality": "Five simultaneous waterfalls over rocky terrain."
+    "speciality": "Five simultaneous waterfalls over rocky terrain.",
+    "lat": 23.0331,
+    "lng": 85.4510,
+    "region": "Khunti",
+    "nearestCity": "Khunti",
+    "difficulty": "Moderate"
   },
   {
     "id": "glory-falls",
     "name": "Glory Falls",
-    "image": "/images/waterfalls/glory.jpg",
+    "image": "/images/waterfalls/glory.png.jpg",
     "description": "Hidden gem waterfall in West Singhbhum.",
     "longDescription": "Glory Falls is relatively less known but offers a serene environment with cascading water through rocky cliffs. Ideal for photography and nature walks.",
     "history": "Traditionally visited by locals, gaining attention recently among eco-tourists.",
@@ -62,12 +82,17 @@
     "importance": "Eco-tourism and photographic spot.",
     "bestTime": "June to February",
     "thingsToCarry": "Camera, trekking shoes, water, light snacks",
-    "speciality": "Quiet waterfall amidst untouched forest."
+    "speciality": "Quiet waterfall amidst untouched forest.",
+    "lat": 22.9305,
+    "lng": 85.5362,
+    "region": "West Singhbhum",
+    "nearestCity": "Chaibasa",
+    "difficulty": "Easy"
   },
   {
     "id": "dhur-dhur-falls",
     "name": "Dhur-Dhur Falls",
-    "image": "/images/waterfalls/dhurdhur.jpg",
+    "image": "/images/waterfalls/durdur.png.jpg",
     "description": "Rapid waterfall on the Banai River near Gumla.",
     "longDescription": "Dhur-Dhur Falls is known for its swift cascading waters and rocky surroundings. It is an adventurous location suitable for nature lovers.",
     "history": "Locals have used it as a bathing and recreational spot for centuries.",
@@ -75,12 +100,17 @@
     "importance": "Adventure tourism and eco-tourism.",
     "bestTime": "July to February",
     "thingsToCarry": "Water, camera, trekking shoes, safety gear",
-    "speciality": "Fast-flowing waterfall amidst rocky cliffs."
+    "speciality": "Fast-flowing waterfall amidst rocky cliffs.",
+    "lat": 23.4341,
+    "lng": 84.9875,
+    "region": "Gumla",
+    "nearestCity": "Gumla",
+    "difficulty": "Hard"
   },
   {
     "id": "royal-falls",
     "name": "Royal Falls",
-    "image": "/images/waterfalls/royal.jpg",
+    "image": "/images/waterfalls/royal.png.jpg",
     "description": "Tall waterfall in Gumla district surrounded by dense forest.",
     "longDescription": "Royal Falls cascades from a height of approximately 60 meters and is surrounded by greenery. It is a hotspot for nature photography.",
     "history": "A local natural attraction historically frequented for leisure.",
@@ -88,12 +118,17 @@
     "importance": "Tourism, photography, and adventure.",
     "bestTime": "June to February",
     "thingsToCarry": "Camera, water, trekking shoes, snacks",
-    "speciality": "Tall, scenic waterfall with forest backdrop."
+    "speciality": "Tall, scenic waterfall with forest backdrop.",
+    "lat": 23.4150,
+    "lng": 84.9852,
+    "region": "Gumla",
+    "nearestCity": "Gumla",
+    "difficulty": "Moderate"
   },
   {
     "id": "murmur-falls",
     "name": "Murmur Falls",
-    "image": "/images/waterfalls/murmur.jpg",
+    "image": "/images/waterfalls/murmur.png.jpg",
     "description": "Small yet picturesque waterfall in Jharkhand.",
     "longDescription": "Murmur Falls is surrounded by lush greenery and offers a calm environment for visitors. Ideal for short treks and relaxation.",
     "history": "Locally known waterfall attracting nearby villagers for picnics.",
@@ -101,6 +136,11 @@
     "importance": "Nature tourism and relaxation spot.",
     "bestTime": "June to February",
     "thingsToCarry": "Water, camera, comfortable shoes, light snacks",
-    "speciality": "Peaceful waterfall with easy accessibility."
+    "speciality": "Peaceful waterfall with easy accessibility.",
+    "lat": 23.2110,
+    "lng": 85.3120,
+    "region": "Ranchi",
+    "nearestCity": "Ranchi",
+    "difficulty": "Easy"
   }
 ]
