@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import culturalSites from "@/data/culture.json";
 import GeminiChatBot from "@/components/GeminiChatBot";
-import rivers from "@/data/rivers.json";
 import "leaflet/dist/leaflet.css";
 import {
   WiDaySunny,
@@ -28,11 +28,11 @@ const Marker = dynamic(
   { ssr: false }
 );
 
-export default function RiverDetail() {
+export default function CulturalSiteDetail() {
   const router = useRouter();
   const { id } = router.query;
 
-  const [river, setRiver] = useState(null);
+  const [site, setSite] = useState(null);
   const [visits, setVisits] = useState(0);
   const [favorites, setFavorites] = useState(false);
   const [favoriteCount, setFavoriteCount] = useState(0);
@@ -45,21 +45,21 @@ export default function RiverDetail() {
   const userName = "Guest";
   const WEATHER_API_KEY = "110859bca94e3a2daa0e6de2e3e8b674";
 
+  // Load site data
   useEffect(() => {
     if (!id) return;
-    const foundRiver = rivers.find((r) => r.id === id);
-    setRiver(foundRiver);
+    const foundSite = culturalSites.find((s) => s.id === id);
+    setSite(foundSite);
   }, [id]);
 
+  // Load visits, favorites, comments
   useEffect(() => {
     if (!id) return;
 
-    // Visits
     fetch(`/api/spots/visits`)
       .then((res) => res.json())
       .then((data) => setVisits(data[id] || 0));
 
-    // Favorites
     fetch(`/api/spots/favorites`)
       .then((res) => res.json())
       .then((data) => {
@@ -67,21 +67,20 @@ export default function RiverDetail() {
         setFavorites(data[id]?.users?.includes(userName) || false);
       });
 
-    // Comments
     fetch(`/api/spots/comments?spotId=${id}`)
       .then((res) => res.json())
       .then((data) => setComments(Array.isArray(data) ? data : []))
       .catch(() => setComments([]));
   }, [id]);
 
-  // Weather
+  // Fetch weather
   useEffect(() => {
-    if (!river?.lat || !river?.lng) return;
+    if (!site?.lat || !site?.lng) return;
 
     const fetchWeather = async () => {
       try {
         const res = await fetch(
-          `https://api.openweathermap.org/data/2.5/weather?lat=${river.lat}&lon=${river.lng}&units=metric&appid=${WEATHER_API_KEY}`
+          `https://api.openweathermap.org/data/2.5/weather?lat=${site.lat}&lon=${site.lng}&units=metric&appid=${WEATHER_API_KEY}`
         );
         const data = await res.json();
         setWeather(data);
@@ -90,7 +89,7 @@ export default function RiverDetail() {
       }
     };
     fetchWeather();
-  }, [river]);
+  }, [site]);
 
   const handleVisit = async () => {
     await fetch(`/api/spots/visits`, {
@@ -139,10 +138,10 @@ export default function RiverDetail() {
     }
   };
 
-  if (!river) {
+  if (!site) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white">
-        <p>Loading river info...</p>
+        <p>Loading cultural site info...</p>
       </div>
     );
   }
@@ -154,27 +153,40 @@ export default function RiverDetail() {
       {/* Hero Section */}
       <div className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
         <img
-          src={river.image}
-          alt={river.name}
+          src={site.image}
+          alt={site.name}
           className="rounded-3xl shadow-xl w-full h-[400px] object-cover hover:scale-105 transition-transform duration-300"
         />
         <div>
-          <h1 className="text-5xl font-extrabold text-green-400 mb-4">{river.name}</h1>
-          <p className="text-gray-300 mb-2">{river.description}</p>
-          {river.culturalOverview && (
+          <h1 className="text-5xl font-extrabold text-green-400 mb-4">
+            {site.name}
+          </h1>
+          <p className="text-gray-300 mb-2">{site.description}</p>
+          {site.history && (
             <p className="text-gray-400 mb-2">
-              <span className="font-semibold">Cultural Overview:</span> {river.culturalOverview}
+              <span className="font-semibold">History:</span> {site.history}
             </p>
           )}
-          {river.importance && (
+          {site.culturalOverview && (
             <p className="text-gray-400 mb-2">
-              <span className="font-semibold">Importance:</span> {river.importance}
+              <span className="font-semibold">Cultural Overview:</span>{" "}
+              {site.culturalOverview}
+            </p>
+          )}
+          {site.importance && (
+            <p className="text-gray-400 mb-2">
+              <span className="font-semibold">Importance:</span> {site.importance}
+            </p>
+          )}
+          {site.bestTime && (
+            <p className="text-gray-400 mb-2">
+              <span className="font-semibold">Best Time:</span> {site.bestTime}
             </p>
           )}
         </div>
       </div>
 
-      {/* Weather */}
+      {/* Weather Section */}
       {weather && (
         <div className="max-w-6xl mx-auto px-6 py-6 mb-6">
           <h2 className="text-2xl font-bold mb-4 text-green-400">Current Weather</h2>
@@ -210,22 +222,22 @@ export default function RiverDetail() {
         </div>
       )}
 
-      {/* Map */}
-      {river.lat && river.lng && (
-        <div className="max-w-6xl mx-auto px-6 py-6 mb-6 border-4 border-green-400 rounded-lg">
+      {/* Map Section */}
+      {site.lat && site.lng && (
+        <div className="max-w-6xl mx-auto px-6 py-6 relative z-0 mb-6 border-4 border-green-400 rounded-lg">
           <MapContainer
-            center={[river.lat, river.lng]}
+            center={[site.lat, site.lng]}
             zoom={10}
             scrollWheelZoom={true}
             style={{ height: "400px", width: "100%" }}
           >
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[river.lat, river.lng]} />
+            <Marker position={[site.lat, site.lng]} />
           </MapContainer>
         </div>
       )}
 
-      {/* Comments */}
+      {/* Comments Section */}
       <div className="max-w-6xl mx-auto px-6 py-12">
         <h2 className="text-3xl font-bold mb-4 text-green-400">Comments & Ratings</h2>
         <div className="flex flex-col space-y-4 mb-4">
@@ -285,7 +297,7 @@ export default function RiverDetail() {
 
       {/* Gemini Chatbot */}
       <div className="max-w-6xl mx-auto px-6 py-12">
-        <GeminiChatBot spotId={id} spotType="river" />
+        <GeminiChatBot spotId={id} spotType="cultural" />
       </div>
 
       <Footer />

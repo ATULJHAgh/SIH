@@ -5,23 +5,23 @@ import culturalSites from "@/data/culture.json";
 
 export default function CulturalSitesPage() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen relative bg-gray-900 text-white">
       {/* Navbar */}
       <Navbar />
 
       {/* Background */}
       <div
-        className="absolute inset-0 -z-10"
+        className="absolute inset-0 z-0"
         style={{
           backgroundImage: "url('/images/culture/bg.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          opacity: 0.5,
+          filter: "brightness(50%)",
         }}
       ></div>
 
       {/* Page Content */}
-      <div className="max-w-6xl mx-auto px-6 py-24">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 py-24">
         <h1 className="text-5xl font-extrabold text-center mb-12 text-green-400 drop-shadow-lg">
           Cultural Sites of Jharkhand
         </h1>

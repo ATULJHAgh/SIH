@@ -51,7 +51,7 @@ export default function Hero() {
       description:
         "Experience tribal art, music, dance, and local festivals for an authentic cultural immersion.",
       image: "/images/cultural.jpg",
-      link: "/culture"
+      link: "/cultural"
     },
     {
       title: "Adventure Spots",

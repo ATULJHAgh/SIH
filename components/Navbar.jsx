@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { LuLeaf } from "react-icons/lu";
+import { AiOutlineHome, AiOutlineStar, AiOutlineBook, AiOutlinePicture, AiOutlineCalendar } from "react-icons/ai";
 
 export default function Navbar() {
   return (
@@ -10,39 +11,68 @@ export default function Navbar() {
       }}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo / Brand with Leaf */}
+        {/* Left Side: Logo */}
         <div className="flex items-center gap-2 text-white font-bold text-2xl font-serif tracking-wide">
           <LuLeaf className="text-green-300 text-2xl" />
           Jharkhand Tourism
         </div>
 
-        {/* Links */}
+        {/* Right Side: Menu Links with Icons */}
         <ul className="hidden md:flex gap-6 font-medium text-white items-center">
-          {/* Home Button */}
           <li className="group relative">
             <Link
               href="/"
-              className="relative transition duration-300 hover:text-green-400"
+              className="flex items-center gap-1 transition duration-300 hover:text-green-400"
             >
+              <AiOutlineHome className="text-lg" />
               Home
               <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </li>
 
-          {/* Existing Links */}
-          {["Highlights", "Heritage", "Gallery", "Plan Your Visit"].map(
-            (item, i) => (
-              <li key={i} className="group relative">
-                <Link
-                  href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}
-                  className="relative transition duration-300 hover:text-green-400"
-                >
-                  {item}
-                  <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
-                </Link>
-              </li>
-            )
-          )}
+          <li className="group relative">
+            <Link
+              href="#highlights"
+              className="flex items-center gap-1 transition duration-300 hover:text-green-400"
+            >
+              <AiOutlineStar className="text-lg" />
+              Highlights
+              <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+          </li>
+
+          <li className="group relative">
+            <Link
+              href="#heritage"
+              className="flex items-center gap-1 transition duration-300 hover:text-green-400"
+            >
+              <AiOutlineBook className="text-lg" />
+              Heritage
+              <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+          </li>
+
+          <li className="group relative">
+            <Link
+              href="#gallery"
+              className="flex items-center gap-1 transition duration-300 hover:text-green-400"
+            >
+              <AiOutlinePicture className="text-lg" />
+              Gallery
+              <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+          </li>
+
+          <li className="group relative">
+            <Link
+              href="#plan-your-visit"
+              className="flex items-center gap-1 transition duration-300 hover:text-green-400"
+            >
+              <AiOutlineCalendar className="text-lg" />
+              Plan Your Visit
+              <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

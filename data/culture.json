@@ -10,7 +10,9 @@
     "importance": "Preserves tribal heritage and promotes cultural tourism.",
     "bestTime": "October to February",
     "thingsToCarry": "Camera, water, comfortable shoes, notebook for notes",
-    "speciality": "Authentic tribal village experience with traditional lifestyle."
+    "speciality": "Authentic tribal village experience with traditional lifestyle.",
+    "lat": 23.3441,
+    "lng": 85.3096
   },
   {
     "id": "birsa-munda-park-ranchi",
@@ -23,7 +25,9 @@
     "importance": "Educational site and cultural awareness for visitors.",
     "bestTime": "October to March",
     "thingsToCarry": "Camera, water, notebook",
-    "speciality": "Blends nature, history, and tribal heritage in one park."
+    "speciality": "Blends nature, history, and tribal heritage in one park.",
+    "lat": 23.3636,
+    "lng": 85.3329
   },
   {
     "id": "rang-tarang-ranchi",
@@ -36,7 +40,9 @@
     "importance": "Promotes cultural exchange and artistic education.",
     "bestTime": "All year round, better during festival season",
     "thingsToCarry": "Camera, notebook, comfortable clothing",
-    "speciality": "Professional stage showcasing tribal and modern arts."
+    "speciality": "Professional stage showcasing tribal and modern arts.",
+    "lat": 23.3445,
+    "lng": 85.3099
   },
   {
     "id": "jharkhand-museum-ranchi",
@@ -49,7 +55,9 @@
     "importance": "Educational and cultural tourism site.",
     "bestTime": "October to March",
     "thingsToCarry": "Camera (if allowed), water, notebook",
-    "speciality": "Comprehensive insight into Jharkhand’s tribal and historical heritage."
+    "speciality": "Comprehensive insight into Jharkhand’s tribal and historical heritage.",
+    "lat": 23.3480,
+    "lng": 85.3095
   },
   {
     "id": "festival-village-bokaro",
@@ -62,7 +70,9 @@
     "importance": "Cultural tourism hotspot.",
     "bestTime": "During local festivals, October to February",
     "thingsToCarry": "Camera, water, festival-friendly clothing",
-    "speciality": "Live cultural performances with immersive experiences."
+    "speciality": "Live cultural performances with immersive experiences.",
+    "lat": 23.6693,
+    "lng": 86.1517
   },
   {
     "id": "tribal-crafts-center-jamshedpur",
@@ -75,7 +85,9 @@
     "importance": "Promotes tribal economy and cultural preservation.",
     "bestTime": "October to March",
     "thingsToCarry": "Money for purchases, camera, notebook",
-    "speciality": "Hands-on experience with tribal art and crafts."
+    "speciality": "Hands-on experience with tribal art and crafts.",
+    "lat": 22.8056,
+    "lng": 86.2029
   },
   {
     "id": "folk-dance-arena-ranchi",
@@ -88,7 +100,9 @@
     "importance": "Preservation of performing arts and tourism attraction.",
     "bestTime": "October to March",
     "thingsToCarry": "Camera, water, comfortable shoes",
-    "speciality": "Authentic tribal dance experience."
+    "speciality": "Authentic tribal dance experience.",
+    "lat": 23.3400,
+    "lng": 85.3090
   },
   {
     "id": "cultural-village-ranchi",
@@ -101,6 +115,8 @@
     "importance": "Educational and immersive cultural tourism.",
     "bestTime": "October to February",
     "thingsToCarry": "Camera, water, comfortable attire",
-    "speciality": "Interactive experience of tribal living and traditions."
+    "speciality": "Interactive experience of tribal living and traditions.",
+    "lat": 23.3420,
+    "lng": 85.3085
   }
 ]

@@ -2,232 +2,113 @@
   {
     "id": "parasnath-hill",
     "name": "Parasnath Hill",
-    "elevation": "1,365 m (highest peak in Jharkhand)",
-    "location": "Giridih district, Jharkhand, India",
-    "significance": "Most revered Jain pilgrimage site; popular for trekking, nature exploration, and panoramic views.",
-    "history": "Known as Shikharji, where 20 of the 24 Jain Tirthankaras attained Moksha, including Lord Parshvanatha. Ancient temples and shrines mark the summit.",
-    "culturalOverview": "Hosts Jain pilgrimages and festivals like Paryushan & Mahavir Jayanti. Santhal tribes also revere it as sacred.",
-    "importance": "Religious tourism, trekking, biodiversity hotspot, eco-tourism economy.",
-    "trekkingInformation": {
-      "routes": [
-        "Madhuban to Summit (9 km steep forest trek)",
-        "Parikrama Route (27 km circumambulation trek)"
-      ],
-      "difficulty": "Moderate to challenging",
-      "facilities": "Dharamshalas, small eateries, guides available at Madhuban base"
-    },
-    "bestTime": "October to February (avoid monsoon)",
-    "thingsToCarry": [
-      "Trekking shoes & stick",
-      "Warm clothes",
-      "Water & snacks",
-      "Camera/binoculars",
-      "Medical kit"
-    ],
-    "speciality": "Blend of pilgrimage and adventure trekking with biodiversity and cultural harmony.",
-    "nearbyAttractions": [
-      "Madhuban Village – base camp with temples",
-      "Usri Falls (13 km from Giridih)",
-      "Khandoli Dam & Park",
-      "Baidhyanath Dham, Deoghar"
-    ]
+    "image": "/images/mountains/parasnath.jpg",
+    "description": "Elevation 1,365m, in Giridih district. Famous Jain pilgrimage site with panoramic views and serene trekking trails.",
+    "history": "Parasnath has been a key Jain pilgrimage site for centuries, attracting devotees from across India.",
+    "culturalOverview": "Thousands of Jain pilgrims visit during festivals. Local tribes also regard it as sacred.",
+    "importance": "Religious tourism, trekking, and biodiversity hotspot.",
+    "bestTime": "October to February",
+    "thingsToCarry": "Trekking gear, water, camera, comfortable shoes",
+    "speciality": "Combination of Jain pilgrimage and trekking through forest.",
+    "lat": 23.8686,
+    "lng": 86.4556
   },
   {
     "id": "netarhat",
     "name": "Netarhat",
-    "elevation": "1,128 m",
-    "location": "Latehar district, Jharkhand, India",
-    "significance": "Known as 'Queen of Chotanagpur', famous for sunrise/sunset views and British-era heritage.",
-    "history": "Developed as a hill station during British rule; home to the historic Netarhat Residential School.",
-    "culturalOverview": "Hosts cultural gatherings, educational tourism, and popular local festivals.",
-    "importance": "Tourism, education, eco-tourism.",
-    "trekkingInformation": {
-      "routes": [
-        "Sunrise Point trail",
-        "Koel View Point trek"
-      ],
-      "difficulty": "Easy to moderate",
-      "facilities": "Government guest houses, private lodges, and local eateries available"
-    },
+    "image": "/images/mountains/netarhat.jpg",
+    "description": "Known as 'Queen of Chotanagpur', 1,128m high. Popular for sunrise/sunset points and lush landscapes.",
+    "history": "Netarhat was developed during the British era as a hill station and educational hub.",
+    "culturalOverview": "Popular among locals and tourists for cultural events and trekking.",
+    "importance": "Tourism and eco-education hub.",
     "bestTime": "October to March",
-    "thingsToCarry": [
-      "Camera",
-      "Warm clothes",
-      "Comfortable shoes"
-    ],
-    "speciality": "Renowned for scenic sunrises and sunsets, cool weather, and tranquil landscapes.",
-    "nearbyAttractions": [
-      "Magnolia Point – sunset view",
-      "Koel View Point – river valley",
-      "Lodh Falls – tallest waterfall in Jharkhand",
-      "Betla National Park"
-    ]
+    "thingsToCarry": "Camera, trekking shoes, warm clothes",
+    "speciality": "Scenic sunrise and sunset viewpoints.",
+    "lat": 23.5064,
+    "lng": 84.4551
   },
   {
     "id": "baidyanath-hill",
     "name": "Baidyanath Hill",
-    "elevation": "400 m approx.",
-    "location": "Deoghar district, Jharkhand, India",
-    "significance": "Famous for Baidyanath Dham temple, one of the 12 Jyotirlingas of Lord Shiva.",
-    "history": "Ancient Shiva temple over 1000 years old, mentioned in Hindu scriptures.",
-    "culturalOverview": "Hosts huge pilgrimages during Shravan month, attracting millions of devotees.",
-    "importance": "Major pilgrimage hub, cultural tourism.",
-    "trekkingInformation": {
-      "routes": ["Temple complex pathways"],
-      "difficulty": "Easy",
-      "facilities": "Large temple complex, rest houses, local markets"
-    },
+    "image": "/images/mountains/baidyanath.jpg",
+    "description": "Deoghar district, elevation around 400m. Famous for Baidyanath Dham temple, a major pilgrimage site and serene hill with scenic views.",
+    "history": "Baidyanath Dham is one of the 12 Jyotirlingas of Lord Shiva, over 1000 years old.",
+    "culturalOverview": "Hosts large pilgrimages, especially during Shravan month.",
+    "importance": "Religious tourism and local cultural heritage.",
     "bestTime": "July to February",
-    "thingsToCarry": [
-      "Water",
-      "Modest clothing",
-      "Camera",
-      "Sun protection"
-    ],
-    "speciality": "Jyotirlinga temple with religious fairs and cultural vibrancy.",
-    "nearbyAttractions": [
-      "Naulakha Mandir",
-      "Tapovan Hills",
-      "Satsang Ashram"
-    ]
+    "thingsToCarry": "Water, modest clothing, camera, sun protection",
+    "speciality": "Pilgrimage site with historic temples.",
+    "lat": 24.1926,
+    "lng": 86.6933
   },
   {
     "id": "tagore-hill",
     "name": "Tagore Hill",
-    "elevation": "Approx. 200 m",
-    "location": "Ranchi, Jharkhand, India",
-    "significance": "Historic hill linked to Rabindranath Tagore’s family; ideal for city views and picnics.",
-    "history": "Named after the Tagore family, it is said Rabindranath spent time here.",
-    "culturalOverview": "Popular picnic spot, cultural gatherings, and meditation site.",
-    "importance": "Tourism, history, cultural heritage.",
-    "trekkingInformation": {
-      "routes": ["Staircase pathway to hilltop"],
-      "difficulty": "Easy",
-      "facilities": "Small shops, seating areas, park"
-    },
+    "image": "/images/mountains/tagore.avif",
+    "description": "Ranchi city viewpoint at moderate elevation. Historical spot linked to Tagore family, ideal for picnics.",
+    "history": "Named after the Tagore family; historically significant viewpoint.",
+    "culturalOverview": "Used for picnics and local cultural gatherings.",
+    "importance": "Tourist viewpoint and historical landmark.",
     "bestTime": "October to March",
-    "thingsToCarry": [
-      "Camera",
-      "Picnic items",
-      "Comfortable shoes"
-    ],
-    "speciality": "Panoramic view of Ranchi city with historic charm.",
-    "nearbyAttractions": [
-      "Kanke Dam",
-      "Rock Garden Ranchi",
-      "Ranchi Lake"
-    ]
+    "thingsToCarry": "Camera, picnic items, comfortable shoes",
+    "speciality": "Panoramic views and historical significance.",
+    "lat": 23.3723,
+    "lng": 85.3345
   },
   {
     "id": "trikut-hill",
     "name": "Trikut Hill",
-    "elevation": "370 m",
-    "location": "Deoghar district, Jharkhand, India",
-    "significance": "Known for its three distinct peaks and religious significance.",
-    "history": "Mentioned in Hindu epics; ancient temples dot the area.",
-    "culturalOverview": "Annual fairs and trekking events are held, drawing both pilgrims and adventurers.",
-    "importance": "Spiritual tourism and adventure trekking.",
-    "trekkingInformation": {
-      "routes": [
-        "Cable car to mid-point",
-        "Trek to peaks through rocky terrain"
-      ],
-      "difficulty": "Moderate",
-      "facilities": "Cable car, rest houses, shops near base"
-    },
+    "image": "/images/mountains/trikut.jpeg",
+    "description": "Deoghar's three peaks, 370m approx. Great for trekking and pilgrimage with stunning surroundings.",
+    "history": "Known for its three distinct peaks and religious sites nearby.",
+    "culturalOverview": "Trekking festivals and local pilgrimages occur annually.",
+    "importance": "Adventure tourism and spiritual significance.",
     "bestTime": "October to March",
-    "thingsToCarry": [
-      "Trekking shoes",
-      "Camera",
-      "Water"
-    ],
-    "speciality": "Unique tri-peak formation with both pilgrimage and trekking.",
-    "nearbyAttractions": [
-      "Baidyanath Dham, Deoghar",
-      "Tapovan Caves",
-      "Naulakha Temple"
-    ]
+    "thingsToCarry": "Trekking gear, water, camera",
+    "speciality": "Tri-peak trekking destination.",
+    "lat": 24.1930,
+    "lng": 86.6880
   },
   {
     "id": "dalma-hills",
     "name": "Dalma Hills",
-    "elevation": "915 m",
-    "location": "East Singhbhum, Jharkhand, India",
-    "significance": "Famous for Dalma Wildlife Sanctuary, elephants, and eco-tourism.",
-    "history": "Known for tribal settlements and wildlife conservation efforts.",
-    "culturalOverview": "Tribal culture and eco-tourism are prominent.",
-    "importance": "Biodiversity conservation, adventure tourism.",
-    "trekkingInformation": {
-      "routes": ["Jamshedpur to Dalma trek routes"],
-      "difficulty": "Moderate",
-      "facilities": "Forest guesthouses, sanctuary guides"
-    },
+    "image": "/images/mountains/dalma.webp",
+    "description": "Elevation 915m, East Singhbhum. Known for wildlife sanctuary and scenic trekking routes.",
+    "history": "Dalma Hills is historically inhabited by local tribes and known for its biodiversity.",
+    "culturalOverview": "Tribal culture and eco-tourism are prominent in this area.",
+    "importance": "Wildlife conservation and trekking tourism.",
     "bestTime": "October to March",
-    "thingsToCarry": [
-      "Binoculars",
-      "Trekking shoes",
-      "Camera",
-      "Water"
-    ],
-    "speciality": "Wildlife sightings, especially elephants.",
-    "nearbyAttractions": [
-      "Dimna Lake",
-      "Jubilee Park, Jamshedpur",
-      "Dalma Wildlife Sanctuary"
-    ]
+    "thingsToCarry": "Trekking shoes, camera, water, binoculars",
+    "speciality": "Wildlife sanctuary and trekking trails.",
+    "lat": 22.7872,
+    "lng": 86.1648
   },
   {
     "id": "rajmahal-hills",
     "name": "Rajmahal Hills",
-    "elevation": "200–300 m",
-    "location": "Sahibganj, Jharkhand, India",
-    "significance": "Geologically ancient volcanic hills with rich history.",
-    "history": "Formed from volcanic activity millions of years ago; important for fossils and geology.",
-    "culturalOverview": "Tribal settlements preserve ancient traditions.",
-    "importance": "Geological tourism, heritage exploration.",
-    "trekkingInformation": {
-      "routes": ["Scenic trekking trails through hills"],
-      "difficulty": "Moderate",
-      "facilities": "Limited facilities, best with local guides"
-    },
+    "image": "/images/mountains/rajmahal.jpg",
+    "description": "Located in Sahibganj, ancient volcanic hills. Offers geological wonders and scenic landscapes.",
+    "history": "Geologically significant volcanic hills with historic settlements.",
+    "culturalOverview": "Local tribes have unique cultural practices tied to these hills.",
+    "importance": "Geological tourism and scenic beauty.",
     "bestTime": "October to March",
-    "thingsToCarry": [
-      "Trekking gear",
-      "Camera",
-      "Water"
-    ],
-    "speciality": "Unique volcanic formations and fossil-rich terrain.",
-    "nearbyAttractions": [
-      "Udhwa Bird Sanctuary",
-      "Teliagarhi Fort",
-      "Moti Jharna Waterfall"
-    ]
+    "thingsToCarry": "Camera, trekking gear, water",
+    "speciality": "Ancient volcanic formations and scenic landscapes.",
+    "lat": 24.1873,
+    "lng": 87.9586
   },
   {
     "id": "garhjat-hills",
     "name": "Garhjat Hills",
-    "elevation": "Varies, moderate elevation",
-    "location": "Border region of Jharkhand and Odisha",
-    "significance": "Mineral-rich hills, known for trekking and nature tourism.",
-    "history": "Historically important for mineral mining and tribal settlements.",
-    "culturalOverview": "Tribal communities practice rich cultural traditions here.",
-    "importance": "Mining history, eco-tourism.",
-    "trekkingInformation": {
-      "routes": ["Nature trekking trails"],
-      "difficulty": "Easy to moderate",
-      "facilities": "Basic facilities; advisable to carry essentials"
-    },
+    "image": "/images/mountains/garhjat.jpeg",
+    "description": "Bordering Jharkhand, moderate elevation. Rich in minerals, ideal for trekking and nature lovers.",
+    "history": "Historically mined for minerals and home to tribal settlements.",
+    "culturalOverview": "Local tribal culture and trekking activities are popular.",
+    "importance": "Mining history, trekking, and nature tourism.",
     "bestTime": "October to March",
-    "thingsToCarry": [
-      "Water",
-      "Trekking gear",
-      "Camera"
-    ],
-    "speciality": "Mineral-rich terrain with cultural and trekking experiences.",
-    "nearbyAttractions": [
-      "Simlipal National Park (Odisha)",
-      "Local tribal villages",
-      "Nearby waterfalls and forests"
-    ]
+    "thingsToCarry": "Trekking gear, water, camera",
+    "speciality": "Mineral-rich hills with trekking opportunities.",
+    "lat": 23.9000,
+    "lng": 85.0000
   }
 ]
