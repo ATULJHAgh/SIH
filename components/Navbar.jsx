@@ -38,14 +38,13 @@ export default function Navbar() {
             </Link>
           </li>
 
-          {/* Highlights */}
+          {/* Dashboard */}
           <li className="group relative">
             <Link
-              href="/highlights"
+              href="/dashboard"
               className="flex items-center gap-1 transition duration-300 hover:text-green-400"
             >
-              <AiOutlineStar className="text-lg" />
-              Highlights
+              Dashboard
               <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </li>
@@ -62,13 +61,25 @@ export default function Navbar() {
             </Link>
           </li>
 
-          {/* Supports */}
+          {/* Highlights */}
+          <li className="group relative">
+            <Link
+              href="/highlights"
+              className="flex items-center gap-1 transition duration-300 hover:text-green-400"
+            >
+              <AiOutlineStar className="text-lg" />
+              Highlights
+              <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+          </li>
+
+          {/* Help Me */}
           <li className="group relative">
             <Link
               href="/supports"
               className="flex items-center gap-1 transition duration-300 hover:text-green-400"
             >
-              Help me
+              Help Me
               <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </li>

@@ -7,9 +7,9 @@ export default function Hero() {
   const options = [
     { title: "Mountains", description: "Jharkhand is home to scenic plateaus and hills like Netarhat and Parasnath", image: "/images/mountain.jpeg", link: "/mountains" },
     { title: "Rivers", description: "Jharkhand's rivers, such as Damodar, Subarnarekha, Koel and Sankh", image: "/images/rivers.png", link: "/rivers" },
-    { title: "Waterfalls", description: "Witness breathtaking waterfalls like Hundru, Dassam, and Jonha", image: "/images/waterfalls.jpg", link: "/waterfalls" },
+    { title: "Waterfalls", description: "Witness breathtaking waterfalls like Hundru, Dassam, and Jonha", image: "/images/background/waterfallBG.png.jpg", link: "/waterfalls" },
     { title: "Forests", description: "Explore dense forests such as Palamu and Hazaribagh ideal for wildlife enthusiasts.", image: "/images/forests.webp", link: "/forests" },
-    { title: "Temples", description: "Visit spiritual sites like Baidyanath Dham and Parasnath", image: "/images/temples.jpg", link: "/temples" },
+    { title: "Temples", description: "Visit spiritual sites like Baidyanath Dham and Parasnath", image: "/images/background/templeBG.png.jpg", link: "/temples" },
     { title: "Monuments", description: "Discover historic forts, museums, and heritage monuments", image: "/images/monuments.webp", link: "/monuments" },
     { title: "Cultural Sites", description: "Experience tribal art, music, dance, and local festivals for an authentic cultural immersion.", image: "/images/cultural.jpg", link: "/cultural" },
     { title: "Adventure Spots", description: "Try trekking, camping, and other adventure activities in the hills and natural landscapes.", image: "/images/adventure.jpeg", link: "/adventure" },
