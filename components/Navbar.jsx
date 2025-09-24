@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { LuLeaf } from "react-icons/lu";
-import { AiOutlineHome, AiOutlineStar, AiOutlineBook, AiOutlinePicture, AiOutlineCalendar } from "react-icons/ai";
+import Image from "next/image";
+import { AiOutlineHome, AiOutlineStar, AiOutlineBook, AiOutlineDown } from "react-icons/ai";
 
 export default function Navbar() {
   return (
@@ -11,14 +11,22 @@ export default function Navbar() {
       }}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo */}
-        <div className="flex items-center gap-2 text-white font-bold text-2xl font-serif tracking-wide">
-          <LuLeaf className="text-green-300 text-2xl" />
-          Jharkhand Tourism
+        {/* Logo PNG */}
+        <div className="flex items-center gap-2">
+          <Link href="/">
+            <Image
+              src="/images/logo1.jpeg"
+              alt="Jharkhand Tourism Logo"
+              width={140}
+              height={50}
+              className="cursor-pointer"
+            />
+          </Link>
         </div>
 
         {/* Menu Links */}
         <ul className="hidden md:flex gap-6 font-medium text-white items-center">
+          {/* Home */}
           <li className="group relative">
             <Link
               href="/"
@@ -30,6 +38,7 @@ export default function Navbar() {
             </Link>
           </li>
 
+          {/* Highlights */}
           <li className="group relative">
             <Link
               href="/highlights"
@@ -41,6 +50,7 @@ export default function Navbar() {
             </Link>
           </li>
 
+          {/* Heritage */}
           <li className="group relative">
             <Link
               href="/heritage"
@@ -52,31 +62,46 @@ export default function Navbar() {
             </Link>
           </li>
 
+          {/* Supports */}
           <li className="group relative">
             <Link
-              href="#gallery"
+              href="/supports"
               className="flex items-center gap-1 transition duration-300 hover:text-green-400"
             >
-              <AiOutlinePicture className="text-lg" />
-              Gallery
+              Help me
               <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </li>
 
+          {/* Spots to Go (Dropdown) */}
           <li className="group relative">
-            <Link
-              href="#plan-your-visit"
-              className="flex items-center gap-1 transition duration-300 hover:text-green-400"
-            >
-              <AiOutlineCalendar className="text-lg" />
-              Plan Your Visit
-              <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
-            </Link>
+            <button className="flex items-center gap-1 transition duration-300 hover:text-green-400">
+              Spots to Go <AiOutlineDown className="text-sm mt-0.5" />
+            </button>
+            {/* Dropdown */}
+            <ul className="absolute hidden group-hover:block bg-gray-900 text-white shadow-lg rounded-md mt-2 w-48">
+              {[
+                { name: "Mountains", link: "/mountains" },
+                { name: "Rivers", link: "/rivers" },
+                { name: "Waterfalls", link: "/waterfalls" },
+                { name: "Forests", link: "/forests" },
+                { name: "Temples", link: "/temples" },
+                { name: "Monuments", link: "/monuments" },
+                { name: "Cultural Sites", link: "/cultural" },
+                { name: "Adventure Spots", link: "/adventure" },
+              ].map((item, index) => (
+                <li key={index}>
+                  <Link
+                    href={item.link}
+                    className="block px-4 py-2 hover:bg-green-600 transition"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </li>
         </ul>
-
-        {/* Mobile Menu Placeholder (optional) */}
-        {/* You can add a hamburger menu here for smaller screens */}
       </div>
     </nav>
   );

@@ -212,7 +212,7 @@ export default function RiverDetail() {
 
       {/* Map */}
       {river.lat && river.lng && (
-        <div className="max-w-6xl mx-auto px-6 py-6 mb-6 border-4 border-green-400 rounded-lg">
+        <div className="max-w-6xl mx-auto px-6 py-6 relative z-0 mb-6 border-4 border-green-400 rounded-lg">
           <MapContainer
             center={[river.lat, river.lng]}
             zoom={10}
